@@ -2,7 +2,17 @@
 local M = {}
 
 M.ui = {
-  theme = 'aquarium',
+  theme = 'chocolate',
+  hl_override = {
+    NvDashAscii = {
+      fg = "pink",
+      bg = "none",
+    },
+    NvDashButtons = {
+      fg = "light_grey",
+      bg = "none",
+    },
+  },
   nvdash = {
     load_on_startup = true
   }
